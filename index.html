@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>StopWatch App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="watch">
+            <div class="outer-circle">
+                <div class="inner-circle">
+                    <span class="text minute">0 :</span>
+                    <span class="text second">&nbsp; 0 :</span>
+                    <span class="text milisec">&nbsp; 00</span>
+                </div>
+            </div>
+
+            <div class="btn-wrapper">
+                <button class="btn reset hidden">Reset</button>
+                <button class="btn play"><i class="fa-solid fa-play"></i></button>
+                <button class="btn lap hidden">Laps</button>
+            </div>
+        </div>
+
+        <ul class="laps">
+            <button class="laps-clear-btn hidden">Clear All</button>
+        </ul>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/56558055d4.js" crossorigin="anonymous"></script>
+
+</html>
